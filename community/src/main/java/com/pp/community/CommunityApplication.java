@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Date 2023-08-26
  * @author ss_419
  */
-@SpringBootApplication
+@SpringBootApplication// 拥有该注解的类，表明是一个配置文件
 public class CommunityApplication {
 
 	public static void main(String[] args) {
