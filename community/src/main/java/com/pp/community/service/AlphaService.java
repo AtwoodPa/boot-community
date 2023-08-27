@@ -1,5 +1,7 @@
 package com.pp.community.service;
 
+import com.pp.community.dao.AlphaDao;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
@@ -19,6 +21,13 @@ import javax.annotation.PreDestroy;
 // 解除单例模式，每一次访问bean就会创建一个实例
 //@Scope("prototype")
 public class AlphaService {
+    @Autowired
+    private AlphaDao alphaDao;
+
+    public String select(){
+        String select = alphaDao.select();
+        return select;
+    }
 
     public AlphaService() {
         System.out.println("实例化AlphaService");
