@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3eb652b-b942-43b3-818b-1cdc9015fdc5" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/html/student.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/demo/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/test/java/com/pp/community/MapperTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/community/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/community/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/src/main/java/com/pp/community/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/src/main/java/com/pp/community/service/AlphaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/service/AlphaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/community/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/src/main/resources/templates/demo/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/resources/templates/demo/view.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,35 +52,35 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Library/Soft/my-project/niuke-boot/boot-community/community/src/main/java/com/pp/community/mapper",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "spring.configuration.checksum": "82df41632da476065ce2997900554442",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言": [
+      "MySQL"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/community/src/main/java/com/pp/community/mapper" />
+      <recent name="$PROJECT_DIR$/community/src/main/java/com/pp/community/entity" />
+      <recent name="$PROJECT_DIR$/community/src/main/resources/mapper" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/community/src/main/resources/static/html" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.CommunityApplication">
-    <configuration name="CommunityApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="community" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pp.community.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.pp.community" />
-      <option name="MAIN_CLASS_NAME" value="com.pp.community.CommunityApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MapperTests.testInsertUser">
     <configuration name="CommunityApplicationTests.getMyBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="community" />
       <extension name="coverage">
@@ -128,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommunityApplicationTests.testGetAutoBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MapperTests.testInsertUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="community" />
       <extension name="coverage">
         <pattern>
@@ -137,8 +138,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.pp.community" />
-      <option name="MAIN_CLASS_NAME" value="com.pp.community.CommunityApplicationTests" />
-      <option name="METHOD_NAME" value="testGetAutoBean" />
+      <option name="MAIN_CLASS_NAME" value="com.pp.community.MapperTests" />
+      <option name="METHOD_NAME" value="testInsertUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTests.testSelectUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pp.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pp.community" />
+      <option name="MAIN_CLASS_NAME" value="com.pp.community.MapperTests" />
+      <option name="METHOD_NAME" value="testSelectUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MapperTests.testInsertUser" />
+        <item itemvalue="JUnit.MapperTests.testSelectUser" />
         <item itemvalue="JUnit.CommunityApplicationTests.testBeanAutowired" />
         <item itemvalue="JUnit.CommunityApplicationTests.getMyBean" />
         <item itemvalue="JUnit.CommunityApplicationTests.testBeanInitAndDestroy" />
-        <item itemvalue="JUnit.CommunityApplicationTests.testGetAutoBean" />
-        <item itemvalue="JUnit.CommunityApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -170,11 +187,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693056233460</updated>
-      <workItem from="1693056238450" duration="10004000" />
+      <workItem from="1693056238450" duration="19128000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/community/src/main/java/com/pp/community/mapper/UserMapper.java</url>
+          <line>11</line>
+          <properties class="com.pp.community.mapper.UserMapper" method="insertUser">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
