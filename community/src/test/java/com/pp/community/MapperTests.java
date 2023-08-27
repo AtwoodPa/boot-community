@@ -1,6 +1,8 @@
 package com.pp.community;
 
+import com.pp.community.entity.DiscussPost;
 import com.pp.community.entity.User;
+import com.pp.community.mapper.DiscussPostMapper;
 import com.pp.community.mapper.UserMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,6 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * TODO
@@ -26,6 +29,21 @@ import java.util.Date;
 public class MapperTests {
     @Autowired
     private UserMapper userMapper;
+    
+    @Autowired
+    private DiscussPostMapper discussPostMapper;
+    
+    @Test
+    public void testDiscussPostMapper() throws Exception {
+//        List<DiscussPost> discussPosts = discussPostMapper.selectDiscussPosts(0, 0, 10);
+        List<DiscussPost> discussPosts = discussPostMapper.selectDiscussPosts(101, 0, 10);
+        discussPosts.stream().forEach(user -> System.out.println("user = " + user));
+        
+//        int rows = discussPostMapper.selectDiscussPostRows(0);
+        int rows = discussPostMapper.selectDiscussPostRows(101);
+        System.out.println("rows = " + rows);
+    
+    }
 
     @Test
     public void testSelectUser() throws Exception {

@@ -5,13 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3eb652b-b942-43b3-818b-1cdc9015fdc5" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/test/java/com/pp/community/MapperTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/entity/DiscussPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/entity/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/mapper/DiscussPostMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/service/DiscussPostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/mapper/DiscussPostMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/sensitive-words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/css/discuss-detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/css/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/css/letter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/img/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/img/captcha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/img/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/js/discuss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/js/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/js/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/js/letter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/js/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/js/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/error/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/mail/activation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/mail/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/mail/forget.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/admin/data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/discuss-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/followee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/follower.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/forget.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/letter-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/letter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/my-post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/my-reply.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/notice-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/notice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/operate-result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/setting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/community.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/community/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/community/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/src/main/resources/templates/demo/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/resources/templates/demo/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/src/test/java/com/pp/community/MapperTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/test/java/com/pp/community/MapperTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +81,6 @@
 }]]></component>
   <component name="ProjectId" id="2UWXIXKEsw7p3JeiKZVJl8KjW3m" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -52,12 +94,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Library/Soft/my-project/niuke-boot/boot-community/community/src/main/java/com/pp/community/mapper",
+    "last_opened_file_path": "/Library/Soft/my-project/niuke-boot/boot-community/community/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "spring.configuration.checksum": "82df41632da476065ce2997900554442",
     "vue.rearranger.settings.migration": "true"
   },
@@ -72,15 +115,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/community/src/main/resources" />
+      <recent name="$PROJECT_DIR$/community/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/community/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/community/src/main" />
       <recent name="$PROJECT_DIR$/community/src/main/java/com/pp/community/mapper" />
-      <recent name="$PROJECT_DIR$/community/src/main/java/com/pp/community/entity" />
-      <recent name="$PROJECT_DIR$/community/src/main/resources/mapper" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/community/src/main/resources/static/html" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MapperTests.testInsertUser">
+  <component name="RunManager" selected="Spring Boot.CommunityApplication">
     <configuration name="CommunityApplicationTests.getMyBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="community" />
       <extension name="coverage">
@@ -113,7 +158,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommunityApplicationTests.testBeanInitAndDestroy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MapperTests.testDiscussPostMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="community" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +167,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.pp.community" />
-      <option name="MAIN_CLASS_NAME" value="com.pp.community.CommunityApplicationTests" />
-      <option name="METHOD_NAME" value="testBeanInitAndDestroy" />
+      <option name="MAIN_CLASS_NAME" value="com.pp.community.MapperTests" />
+      <option name="METHOD_NAME" value="testDiscussPostMapper" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MapperTests.testDiscussPostMapper" />
         <item itemvalue="JUnit.MapperTests.testInsertUser" />
         <item itemvalue="JUnit.MapperTests.testSelectUser" />
         <item itemvalue="JUnit.CommunityApplicationTests.testBeanAutowired" />
         <item itemvalue="JUnit.CommunityApplicationTests.getMyBean" />
-        <item itemvalue="JUnit.CommunityApplicationTests.testBeanInitAndDestroy" />
       </list>
     </recent_temporary>
   </component>
@@ -187,17 +232,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693056233460</updated>
-      <workItem from="1693056238450" duration="19128000" />
+      <workItem from="1693056238450" duration="29721000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/community/src/main/java/com/pp/community/mapper/UserMapper.java</url>
           <line>11</line>
           <properties class="com.pp.community.mapper.UserMapper" method="insertUser">
