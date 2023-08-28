@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3eb652b-b942-43b3-818b-1cdc9015fdc5" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/utils/MailClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/test/java/com/pp/community/JavaMailTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/utils/CommunityConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/utils/CommunityUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/community/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/community/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/src/main/java/com/pp/community/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/community/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/src/test/java/com/pp/community/JavaMailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/test/java/com/pp/community/JavaMailTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,7 @@
       <list>
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -79,7 +84,7 @@
       <recent name="$PROJECT_DIR$/community/src/main/resources/static/html" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JavaMailTest.testHtmlEmail">
+  <component name="RunManager" selected="Spring Boot.CommunityApplication">
     <configuration name="JavaMailTest.testEmailProblem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="community" />
       <extension name="coverage">
@@ -186,7 +191,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693056233460</updated>
-      <workItem from="1693056238450" duration="33645000" />
+      <workItem from="1693056238450" duration="42695000" />
     </task>
     <servers />
   </component>

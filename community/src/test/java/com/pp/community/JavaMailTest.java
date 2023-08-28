@@ -25,7 +25,7 @@ import org.thymeleaf.context.Context;
 // 将启动器加入该测试类，CommunityApplication类为配置类，因为CommunityApplication类内存不足则会被程序运行。
 @ContextConfiguration(classes = CommunityApplication.class)
 public class JavaMailTest {
-    // 暂存容器对象
+
     @Autowired
     private MailClient mailClient;
     // 引入模版引擎
