@@ -5,56 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3eb652b-b942-43b3-818b-1cdc9015fdc5" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/entity/DiscussPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/entity/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/mapper/DiscussPostMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/service/DiscussPostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/mapper/DiscussPostMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/sensitive-words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/css/discuss-detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/css/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/css/letter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/img/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/img/captcha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/img/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/js/discuss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/js/global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/js/jquery-3.6.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/js/letter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/js/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/js/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/error/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/error/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/mail/activation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/mail/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/mail/forget.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/admin/data.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/discuss-detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/followee.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/follower.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/forget.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/letter-detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/letter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/my-post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/my-reply.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/notice-detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/notice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/operate-result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/community.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/utils/MailClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/test/java/com/pp/community/JavaMailTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/community/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/community/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/src/test/java/com/pp/community/MapperTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/test/java/com/pp/community/MapperTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,8 +79,8 @@
       <recent name="$PROJECT_DIR$/community/src/main/resources/static/html" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.CommunityApplication">
-    <configuration name="CommunityApplicationTests.getMyBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.JavaMailTest.testHtmlEmail">
+    <configuration name="JavaMailTest.testEmailProblem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="community" />
       <extension name="coverage">
         <pattern>
@@ -135,14 +89,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.pp.community" />
-      <option name="MAIN_CLASS_NAME" value="com.pp.community.CommunityApplicationTests" />
-      <option name="METHOD_NAME" value="getMyBean" />
+      <option name="MAIN_CLASS_NAME" value="com.pp.community.JavaMailTest" />
+      <option name="METHOD_NAME" value="testEmailProblem" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommunityApplicationTests.testBeanAutowired" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaMailTest.testHtmlEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="community" />
       <extension name="coverage">
         <pattern>
@@ -151,8 +105,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.pp.community" />
-      <option name="MAIN_CLASS_NAME" value="com.pp.community.CommunityApplicationTests" />
-      <option name="METHOD_NAME" value="testBeanAutowired" />
+      <option name="MAIN_CLASS_NAME" value="com.pp.community.JavaMailTest" />
+      <option name="METHOD_NAME" value="testHtmlEmail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -216,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JavaMailTest.testHtmlEmail" />
+        <item itemvalue="JUnit.JavaMailTest.testEmailProblem" />
         <item itemvalue="JUnit.MapperTests.testDiscussPostMapper" />
         <item itemvalue="JUnit.MapperTests.testInsertUser" />
         <item itemvalue="JUnit.MapperTests.testSelectUser" />
-        <item itemvalue="JUnit.CommunityApplicationTests.testBeanAutowired" />
-        <item itemvalue="JUnit.CommunityApplicationTests.getMyBean" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +186,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693056233460</updated>
-      <workItem from="1693056238450" duration="29721000" />
+      <workItem from="1693056238450" duration="33645000" />
     </task>
     <servers />
   </component>
