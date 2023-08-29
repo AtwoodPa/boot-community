@@ -1,6 +1,8 @@
 package com.pp.community.config;
 
+import com.pp.community.annotation.LoginRequired;
 import com.pp.community.controller.interceptor.AlphaInterceptor;
+import com.pp.community.controller.interceptor.LoginRequiredInterceptor;
 import com.pp.community.controller.interceptor.LoginTicketInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -21,6 +23,11 @@ public class WebMvcConfig implements WebMvcConfigurer {
     private AlphaInterceptor alphaInterceptor;
     @Autowired
     private LoginTicketInterceptor loginTicketInterceptor;
+    /**
+     * 该拦截器拦截了带有LoginRequired注解的所有方法
+     */
+    @Autowired
+    private LoginRequiredInterceptor loginRequired;
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
@@ -31,6 +38,13 @@ public class WebMvcConfig implements WebMvcConfigurer {
                 .addPathPatterns("/register", "/login");
 
         registry.addInterceptor(loginTicketInterceptor)// 默认拦截全部
+                // 排除静态资源
+                .excludePathPatterns("/**/*.css", "/**/*.js", "/**/*.png", "/**/*.jpg", "/**/*.jpeg");
+
+        /**
+         * 该拦截器拦截了带有LoginRequired注解的所有方法
+         */
+        registry.addInterceptor(loginRequired)// 默认拦截全部
                 // 排除静态资源
                 .excludePathPatterns("/**/*.css", "/**/*.js", "/**/*.png", "/**/*.jpg", "/**/*.jpeg");
     }
