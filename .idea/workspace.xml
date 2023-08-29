@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3eb652b-b942-43b3-818b-1cdc9015fdc5" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/config/KaptchaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/entity/LoginTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/mapper/LoginTicketMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/mapper/LoginTicketMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/test/java/com/pp/community/LoginTicketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/community/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/src/main/java/com/pp/community/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/src/main/java/com/pp/community/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/controller/interceptor/AlphaInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/controller/interceptor/LoginTicketInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/utils/CookieUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/utils/HostHolder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/community/src/main/java/com/pp/community/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/src/main/java/com/pp/community/utils/CommunityConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/utils/CommunityConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/community.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docs/community.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +192,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693056233460</updated>
-      <workItem from="1693056238450" duration="55500000" />
+      <workItem from="1693056238450" duration="59425000" />
     </task>
     <servers />
   </component>

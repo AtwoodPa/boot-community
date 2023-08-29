@@ -1,0 +1,37 @@
+package com.pp.community.config;
+
+import com.pp.community.controller.interceptor.AlphaInterceptor;
+import com.pp.community.controller.interceptor.LoginTicketInterceptor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+/**
+ * TODO MVC配置类
+ * 该配置类需要实现WebMvcConfigurer
+ *
+ * @author ss_419
+ * @version 1.0
+ * @date 2023/8/29 08:48
+ */
+@Configuration
+public class WebMvcConfig implements WebMvcConfigurer {
+    @Autowired
+    private AlphaInterceptor alphaInterceptor;
+    @Autowired
+    private LoginTicketInterceptor loginTicketInterceptor;
+
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+        registry.addInterceptor(alphaInterceptor)// 默认拦截全部
+                // 排除静态资源
+                .excludePathPatterns("/**/*.css", "/**/*.js", "/**/*.png", "/**/*.jpg", "/**/*.jpeg")
+                // 指定拦截路径
+                .addPathPatterns("/register", "/login");
+
+        registry.addInterceptor(loginTicketInterceptor)// 默认拦截全部
+                // 排除静态资源
+                .excludePathPatterns("/**/*.css", "/**/*.js", "/**/*.png", "/**/*.jpg", "/**/*.jpeg");
+    }
+}
