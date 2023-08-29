@@ -3,6 +3,31 @@
   <component name="PersistentConfig">
     <option name="historyConfigList">
       <map>
+        <entry key="login_ticket">
+          <value>
+            <Config>
+              <option name="annotationDAO" value="true" />
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="LoginTicketMapper" />
+              <option name="daoPackage" value="com.pp.community.mapper" />
+              <option name="daoPostfix" value="Mapper" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="LoginTicket" />
+              <option name="modelPackage" value="com.pp.community.entity" />
+              <option name="name" value="login_ticket" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="login_ticket" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources" />
+              <option name="xmlPackage" value="mapper" />
+            </Config>
+          </value>
+        </entry>
         <entry key="t_discuss_post">
           <value>
             <Config>
