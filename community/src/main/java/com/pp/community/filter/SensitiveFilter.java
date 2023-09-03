@@ -1,5 +1,7 @@
 package com.pp.community.filter;
 
+import org.apache.commons.lang3.CharUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -79,6 +81,75 @@ public class SensitiveFilter {
                 tempNode.setKeyWordEnd(true);
             }
         }
+    }
+
+    /**
+     * 过滤敏感词
+     * @param text 待过滤的文本
+     * @return 过滤后的文本
+     */
+    public String filter(String text){
+        if (StringUtils.isBlank(text)){
+            return null;
+        }
+        // 字符串不是空的
+        // 指针1
+        TrieNode tempNode = rootNode;
+        // 指针2
+        int begin = 0;
+        // 指针3
+        int position = 0;
+        // 存放结果的buffer
+        StringBuilder sb = new StringBuilder();
+        // 检测字符串修改敏感词
+        while (position < text.length()){
+            char c = text.charAt(position);
+
+            // 跳过符号，一些特殊的符号
+            if (isSymbol(c)){
+                // 如果指针1处于根节点，将此符号计入结果，让指针2向下走
+                if (tempNode == rootNode){
+                    sb.append(c);
+                    begin++;// 添加之后走
+                }
+                position++;// 特殊字符、正常字符都要走【无论符号在开头还是中间，指针3都要走下去】
+                continue;
+            }
+            // 字符不是特殊符号
+            // 检查下级节点
+            tempNode = tempNode.getSubNode(c);
+            if (tempNode == null){
+                // 说明以begin开头的字符串不是敏感词
+                sb.append(text.charAt(begin));
+                // 进入下一个位置
+                position = ++begin;
+                // 归为根节点
+                tempNode = rootNode;
+            }else if (tempNode.isKeyWordEnd()){
+                // 当前节点找到了敏感词
+                // 将begin~position这一段字符串替换
+                sb.append(REPLACEMENT);
+                // 进入下一个位置,跳过敏感词这一段字符
+                begin = ++position;
+                // 归为根节点
+                tempNode = rootNode;
+            }else {
+                //
+                position++;
+            }
+        }
+        // 将最后一批字符计入结果，指针3提前到终点的情况
+        sb.append(text.substring(begin));
+        return sb.toString();
+    }
+
+    /**
+     * 判断是否为特殊符号
+     * @param c
+     * @return
+     */
+    private boolean isSymbol(Character c){
+        return !CharUtils.isAsciiAlphanumeric(c) && (c < 0x2E80 || c > 0x9FFF);
     }
 
     /**
