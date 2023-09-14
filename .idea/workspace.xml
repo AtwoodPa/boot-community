@@ -4,26 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3eb652b-b942-43b3-818b-1cdc9015fdc5" name="更改" comment="敏感词过滤器-遍历敏感词构造前缀树">
-      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/utils/CookieUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/test/java/com/pp/community/SensitiveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/src/main/java/com/pp/community/filter/SensitiveFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/filter/SensitiveFilter.java" afterDir="false" />
+    <list default="true" id="e3eb652b-b942-43b3-818b-1cdc9015fdc5" name="更改" comment="更改">
+      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/controller/DiscussPostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community/src/main/resources/static/html/ajax-demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/community/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/src/main/java/com/pp/community/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/src/main/java/com/pp/community/service/DiscussPostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/service/DiscussPostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/src/main/java/com/pp/community/utils/CommunityUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/java/com/pp/community/utils/CommunityUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/src/main/resources/mapper/DiscussPostMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/resources/mapper/DiscussPostMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/src/main/resources/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/resources/static/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -31,14 +32,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AtwoodPa&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="87da6fb4-46fe-4dbc-9f77-b4b8ff3fb96e" />
+        <option name="url" value="https://github.com/AtwoodPa/boot-community.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\tools\maven_jar" />
-        <option name="userSettingsFile" value="D:\tools\apache-maven-3.9.4\conf\settings.xml" />
+        <option name="localRepository" value="$PROJECT_DIR$/../../../tools/maven_jar" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../tools/apache-maven-3.9.0/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -47,7 +62,6 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2UWXIXKEsw7p3JeiKZVJl8KjW3m" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -68,10 +82,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Problems",
+    "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.3965318",
-    "settings.editor.selected.configurable": "File.Encoding",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "82df41632da476065ce2997900554442",
     "vue.rearranger.settings.migration": "true"
   },
@@ -96,7 +110,20 @@
       <recent name="$PROJECT_DIR$/community/src/main/resources/static/html" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SensitiveTest.sensitiveTest">
+  <component name="RunManager" selected="Spring Boot.CommunityApplication">
+    <configuration name="CommunityUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pp.community.utils.CommunityUtil" />
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pp.community.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaMailTest.testEmailProblem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="community" />
       <extension name="coverage">
@@ -161,22 +188,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SensitiveWordTest.testSensitiveText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="community" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pp.community.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.pp.community" />
-      <option name="MAIN_CLASS_NAME" value="com.pp.community.SensitiveWordTest" />
-      <option name="METHOD_NAME" value="testSensitiveText" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CommunityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="community" />
@@ -187,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CommunityUtil" />
         <item itemvalue="JUnit.SensitiveTest.sensitiveTest" />
-        <item itemvalue="JUnit.SensitiveWordTest.testSensitiveText" />
-        <item itemvalue="JUnit.JavaMailTest.testEmailProblem" />
         <item itemvalue="JUnit.LoginTicketTest.testInsert" />
         <item itemvalue="JUnit.JavaMailTest.testHtmlEmail" />
+        <item itemvalue="JUnit.JavaMailTest.testEmailProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -204,41 +215,11 @@
       <option name="presentableId" value="Default" />
       <updated>1693056233460</updated>
       <workItem from="1693056238450" duration="64952000" />
-      <workItem from="1693318510463" duration="1282000" />
-      <workItem from="1693577624084" duration="865000" />
-      <workItem from="1693619376158" duration="620000" />
-      <workItem from="1693620008342" duration="7097000" />
-      <workItem from="1693643257812" duration="1938000" />
-      <workItem from="1693645207935" duration="2523000" />
-      <workItem from="1693647918769" duration="12000" />
-      <workItem from="1693647938412" duration="5985000" />
-      <workItem from="1693698458954" duration="5068000" />
+      <workItem from="1693318510463" duration="2671000" />
+      <workItem from="1693569668752" duration="257000" />
+      <workItem from="1694515580223" duration="411000" />
+      <workItem from="1694516319058" duration="11347000" />
     </task>
-    <task id="LOCAL-00001" summary="更改">
-      <option name="closed" value="true" />
-      <created>1693699955744</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1693699955744</updated>
-    </task>
-    <task id="LOCAL-00002" summary="敏感词过滤器-定义前缀树">
-      <option name="closed" value="true" />
-      <created>1693700748365</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1693700748365</updated>
-    </task>
-    <task id="LOCAL-00003" summary="敏感词过滤器-遍历敏感词构造前缀树">
-      <option name="closed" value="true" />
-      <created>1693702387398</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1693702387398</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,12 +236,6 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="更改" />
-    <MESSAGE value="敏感词过滤器-定义前缀树" />
-    <MESSAGE value="敏感词过滤器-遍历敏感词构造前缀树" />
-    <option name="LAST_COMMIT_MESSAGE" value="敏感词过滤器-遍历敏感词构造前缀树" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -275,9 +250,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

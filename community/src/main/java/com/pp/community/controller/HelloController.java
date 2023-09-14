@@ -207,4 +207,22 @@ public class HelloController {
         return "id => "+ id + ",value => "+ value;
     }
 
+
+    /**
+     * 测试ajax实例
+     *
+     */
+    @RequestMapping(path = "/ajax",method = RequestMethod.POST)
+    @ResponseBody
+    public String testAjax(String name,int age){
+        System.out.println(name);
+        System.out.println(age);
+        Map<String, Object> map = new HashMap<>();
+        map.put("name",name);
+        map.put("age",age);
+
+        return CommunityUtil.getJSONString(0,"okk",map);
+
+    }
+
 }

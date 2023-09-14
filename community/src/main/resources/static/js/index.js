@@ -6,7 +6,7 @@ function publish() {
 	$("#publishModal").modal("hide");
 	var title=$("#recipient-name").val();
 	var content=$("#message-text").val();
-	var url=CONTEXT_PATH+"/discusspost/add";
+	var url=CONTEXT_PATH+"/discuss/add";
 	$.ajax({
 		type:"POST",
 		url: url,
