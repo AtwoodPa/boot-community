@@ -59,4 +59,11 @@ public class DiscussPostService {
         post.setContent(sensitiveFilter.filter(post.getContent()));
         return discussPostMapper.insert(post);
     }
+
+    public DiscussPost findDiscussionPostById(Integer id){
+        return discussPostMapper.selectByPrimaryKey(id);
+    }
+
+
+
 }
