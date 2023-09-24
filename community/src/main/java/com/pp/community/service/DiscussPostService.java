@@ -64,6 +64,14 @@ public class DiscussPostService {
         return discussPostMapper.selectByPrimaryKey(id);
     }
 
-
+    /**
+     * 更新 帖子评论数量
+     * @param id
+     * @param commentCount
+     * @return
+     */
+    public int updateCommentCount(int id,int commentCount){
+        return discussPostMapper.updateCommentCount(id,commentCount);
+    }
 
 }

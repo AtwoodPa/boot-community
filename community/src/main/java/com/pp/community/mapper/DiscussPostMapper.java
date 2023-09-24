@@ -27,4 +27,6 @@ public interface DiscussPostMapper {
     int updateByPrimaryKeySelective(DiscussPost record);
 
     int updateByPrimaryKey(DiscussPost record);
+
+    int updateCommentCount(int id, int commentCount);
 }

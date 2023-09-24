@@ -1,5 +1,7 @@
 package com.pp.community;
 
+import org.mybatis.spring.annotation.MapperScan;
+import org.mybatis.spring.annotation.MapperScans;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author ss_419
  */
 @SpringBootApplication// 拥有该注解的类，表明是一个配置文件
+@MapperScan("com.pp.community.mapper")
 public class CommunityApplication {
 
 	public static void main(String[] args) {

@@ -155,4 +155,7 @@
       score = #{score,jdbcType=DOUBLE}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  <update id="updateCommentCount">
+    update t_discuss_post set comment_count = #{commentCount} where id = #{id}
+  </update>
 </mapper>

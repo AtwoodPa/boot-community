@@ -28,6 +28,31 @@
             </Config>
           </value>
         </entry>
+        <entry key="t_comment">
+          <value>
+            <Config>
+              <option name="annotationDAO" value="true" />
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="CommentMapper" />
+              <option name="daoPackage" value="com.pp.community.mapper" />
+              <option name="daoPostfix" value="Mapper" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="Comment" />
+              <option name="modelPackage" value="com.pp.community.entity" />
+              <option name="name" value="t_comment" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="t_comment" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources" />
+              <option name="xmlPackage" value="mapper" />
+            </Config>
+          </value>
+        </entry>
         <entry key="t_discuss_post">
           <value>
             <Config>
@@ -46,6 +71,31 @@
               <option name="primaryKey" value="id" />
               <option name="projectFolder" value="$PROJECT_DIR$" />
               <option name="tableName" value="t_discuss_post" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources" />
+              <option name="xmlPackage" value="mapper" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="t_message">
+          <value>
+            <Config>
+              <option name="annotationDAO" value="true" />
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="MessageMapper" />
+              <option name="daoPackage" value="com.pp.community.mapper" />
+              <option name="daoPostfix" value="Mapper" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="Message" />
+              <option name="modelPackage" value="com.pp.community.entity" />
+              <option name="name" value="t_message" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="t_message" />
               <option name="useLombokPlugin" value="true" />
               <option name="useSchemaPrefix" value="true" />
               <option name="xmlMvnPath" value="src/main/resources" />

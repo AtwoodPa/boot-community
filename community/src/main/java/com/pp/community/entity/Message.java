@@ -5,22 +5,23 @@ import java.util.Date;
 import lombok.Data;
 
 /**
- * login_ticket
+ * t_message
  */
 @Data
-public class LoginTicket implements Serializable {
+public class Message implements Serializable {
     private Integer id;
 
-    private Integer userId;
+    private Integer fromId;
 
-    private String ticket;
+    private Integer toId;
 
-    /**
-     * 0-有效；1-无效
-     */
+    private String conversationId;
+
+    private String content;
+
     private Integer status;
 
-    private Date expired;
+    private Date createTime;
 
     private static final long serialVersionUID = 1L;
 }
